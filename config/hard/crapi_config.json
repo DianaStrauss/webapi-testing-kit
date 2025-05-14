@@ -1,0 +1,82 @@
+{
+  "name": "crapi",
+  "token": "your_api_token_here",
+  "password_file": "config/best1050.txt",
+  "csv_file": "config/credentials.csv",
+  "host": "http://localhost:8888",
+  "description": "No description provided.",
+  "correct_endpoints": [
+    "/identity/api/auth/signup",
+    "/identity/api/auth/login",
+    "/identity/api/auth/forget-password",
+    "/identity/api/auth/v3/check-otp",
+    "/identity/api/auth/v2/check-otp",
+    "/identity/api/auth/v4.0/user/login-with-token",
+    "/identity/api/auth/v2.7/user/login-with-token",
+    "/identity/api/v2/user/reset-password",
+    "/identity/api/v2/user/change-email",
+    "/identity/api/v2/user/verify-email-token",
+    "/identity/api/v2/user/dashboard",
+    "/identity/api/v2/user/pictures",
+    "/identity/api/v2/user/videos",
+    "/identity/api/v2/user/videos/{id}",
+    "/identity/api/v2/user/videos/convert_video",
+    "/identity/api/v2/admin/videos/{id}",
+    "/identity/api/v2/vehicle/vehicles",
+    "/identity/api/v2/vehicle/add_vehicle",
+    "/identity/api/v2/vehicle/{id}/location",
+    "/identity/api/v2/vehicle/resend_email",
+    "/community/api/v2/community/posts/{id}",
+    "/community/api/v2/community/posts",
+    "/community/api/v2/community/posts/{id}/comment",
+    "/community/api/v2/community/posts/recent",
+    "/community/api/v2/coupon/new-coupon",
+    "/community/api/v2/coupon/validate-coupon",
+    "/workshop/api/shop/products",
+    "/workshop/api/shop/orders",
+    "/workshop/api/shop/orders/{id}",
+    "/workshop/api/shop/orders/all",
+    "/workshop/api/shop/orders/return_order",
+    "/workshop/api/shop/apply_coupon",
+    "/workshop/api/shop/return_qr_code",
+    "/workshop/api/management/users/all",
+    "/workshop/api/mechanic/",
+    "/workshop/api/merchant/contact_mechanic",
+    "/workshop/api/mechanic/receive_report",
+    "/workshop/api/mechanic/mechanic_report",
+    "/workshop/api/mechanic/service_requests",
+    "/workshop/api/mechanic/signup"
+  ],
+  "query_params": {
+    "/identity/api/v2/user/videos/convert_video": [
+      "video_id"
+    ],
+    "/community/api/v2/community/posts/recent": [
+      "limit",
+      "offset"
+    ],
+    "/workshop/api/shop/orders/all": [
+      "limit",
+      "offset"
+    ],
+    "/workshop/api/shop/orders/return_order": [
+      "order_id"
+    ],
+    "/workshop/api/management/users/all": [
+      "limit",
+      "offset"
+    ],
+    "/workshop/api/mechanic/receive_report": [
+      "mechanic_code",
+      "problem_details",
+      "vin"
+    ],
+    "/workshop/api/mechanic/mechanic_report": [
+      "report_id"
+    ],
+    "/workshop/api/mechanic/service_requests": [
+      "limit",
+      "offset"
+    ]
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "name": "OWASP API",
+  "token": "your_api_token_here",
+  "host": "http://localhost:3000/api",
+  "description": "API documentation for user, basket, privacy, and payment functionalities.",
+  "correct_endpoints": [
+    "/Users",
+    "/b2b/v2",
+    "/BasketItems/{id}",
+    "/BasketItems",
+    "/Quantitys/{id}",
+    "/Feedbacks/{id}",
+    "/PrivacyRequests",
+    "/PrivacyRequests/{id}",
+    "/Cards",
+    "/Cards/{id}",
+    "/Addresss",
+    "/Addresss/{id}",
+    "/Deliverys",
+    "/Deliverys/{id}"
+  ],
+  "query_params": {}
+}

@@ -1,0 +1,65 @@
+{
+  "token": "your_api_token_here",
+  "host": "https://api.coincap.io/v2",
+  "description": "CoinCap provides real-time pricing and market activity data through REST endpoints.",
+  "correct_endpoints": [
+    "/assets",
+    "/assets/{id}",
+    "/assets/{id}/history",
+    "/assets/{id}/markets",
+    "/rates",
+    "/rates/{id}",
+    "/exchanges",
+    "/exchanges/{id}",
+    "/markets",
+    "/candles"
+  ],
+  "query_params": {
+    "/assets": [
+      "ids",
+      "search",
+      "limit",
+      "offset",
+      "sort"
+    ],
+    "/assets/{id}/history": [
+      "interval",
+      "start",
+      "end"
+    ],
+    "/assets/{id}/markets": [
+      "limit",
+      "offset",
+      "quote"
+    ],
+    "/rates": [
+      "limit",
+      "offset"
+    ],
+    "/exchanges": [
+      "limit",
+      "offset",
+      "search"
+    ],
+    "/markets": [
+      "exchangeId",
+      "baseSymbol",
+      "quoteSymbol",
+      "baseId",
+      "quoteId",
+      "assetSymbol",
+      "limit",
+      "offset",
+      "sort"
+    ],
+    "/candles": [
+      "exchange",
+      "interval",
+      "baseId",
+      "quoteId",
+      "start",
+      "end",
+      "limit"
+    ]
+  }
+}
