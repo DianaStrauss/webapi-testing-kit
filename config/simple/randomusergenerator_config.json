@@ -1,4 +1,5 @@
 {
+  "name": "",
   "token": "your_api_token_here",
   "host": "https://randomuser.me",
   "description": " The Random User Generator API is a tool that creates random user profiles with various information such as name, email, address, and more.",

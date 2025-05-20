@@ -1,5 +1,6 @@
 {
   "token": "",
+  "name": "",
   "strategy": "COT",
   "host": "https://www.boredapi.com",
   "description": " The Bored API provides random activities to overcome boredom.",

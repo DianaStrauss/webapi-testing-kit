@@ -1,4 +1,4 @@
-{
+{  "name": "",
   "token": "",
   "host": "https://www.balldontlie.io/api/v1",
   "description": "The Balldontlie API is a basketball statistics API that provides data on players, teams, games, and more.",

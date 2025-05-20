@@ -1,5 +1,6 @@
 {
   "token": "",
+  "name": "",
   "host": "https://api.datamuse.com",
   "description": " The Datamuse API is a service that provides access to a vast collection of linguistic data for various applications and language-related tasks.",
   "correct_endpoints": [
